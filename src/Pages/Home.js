@@ -3,7 +3,6 @@ import { Layout } from 'antd'
 import Header from '../Components/Header'
 import Sider  from '../Components/Sider'
 
-const {Header, Sider} = Layout;
 
 export default class Home extends Component {
 
@@ -16,9 +15,7 @@ export default class Home extends Component {
             <div>
                 <Layout>
                 <Header />
-                <Layout>
-                    <Sider className="sider"/>
-               </Layout>
+                    <Sider className="sider"/>      
                </Layout>
             </div>
         )
