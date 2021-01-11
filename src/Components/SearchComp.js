@@ -16,7 +16,6 @@ function SearchComp() {
         
            <Search
       
-
     )
 }
 
