@@ -1,7 +1,6 @@
 import './App.css';
-import 'antd/dist/antd.css'
-import Home from './Pages/Home'
-import { HashRouter as Router, Switch, Route } from "react-router-dom"
+import Home from './Pages/Home';
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
