@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import AppBar from '../Components/AppBar'
-import API from '../utils/api'
+import API from '../Controller/api'
 
 
 export default function Home() {
@@ -9,8 +9,8 @@ export default function Home() {
           API
             .getVolume()
             .then(res => {
-                this.state({shelf: res.data})
-                console.log(res.data.results)
+                this.state({res})
+                console.log(res)
             })
             .catch(err => console.log(err))
           });
